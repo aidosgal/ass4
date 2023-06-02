@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'Avalon';
+    src: url('/font/FontsFree-Net-Avalon.ttf');
+}
+body{
+    padding-top: 1em;
+    font-family: Avalon;
+}
+button{
+    border-radius: 50px !important;
+}
+#a{
+    color: rgb(106, 106, 106);
+    text-decoration: none;
+}
+#a:hover{
+    color: black;
+}
+#logo{
+    font-size: 1.3em;
+    text-decoration: none;
+    color: black;
+}
+.vnut{
+    border: 1px solid;
+    padding: 40px;
+    text-align: justify;
+    font-size: 20px ;
+    line-height: 38px ;
+   
+}
+h1 {
+    position: absolute;
+    width: 623px;
+    height: 93px;
+    left: 134px;
+    top: 380px;
+    
+    font-family: 'Avalon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 93px;
+    color: #585A5E;
+    }
+    
+    h2 {
+    
+    font-family: 'Avalon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 62px;
+    
+    color: #FFFFFF;
+    }
+    
+    .cho {
+         padding-top: 5px;
+         padding-bottom: 5px;
+    }
+    
+    nav {
+         background-color: lightgray;
+    }
+    
+    #text1 {
+         font-family: 'Avalon';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 24px;
+         line-height: 23px;
+         
+         color: #585A5E;
+    }
+    
+    button {
+         font-family: 'Avalon';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 24px;
+         line-height: 23px;
+    
+         color: #585A5E;
+    }
+    
+    .link-secondary {
+    font-family: 'Avalon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    
+    color: #FFFFFF;
+    }
+    
+    #input1 {
+         box-sizing: border-box;
+         border: 3px solid #FFFFFF;
+    }
+    
+    
+    .menu {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         margin-top: -6em;
+    }
+    .logohead{
+        text-align: left;
+        font-size: 3.7em;
+        font-family: Avalon;
+        margin-top: 3em;
+    }
+    #logoimg{
+        margin-top: 10em;
+    }
+#about{
+    margin-top: 17em;
+    margin-bottom: 10em;
+}
+#aboutus{
+    border-color: black !important;
+    padding: 1.5em !important;
+}
+.text{
+    font-size: 1.4em;
+    text-align: left;
+}    
+.contacts{
+    color: black !important;
+    margin-top: 15em;
+    margin-left: 12em;
+    width: 70%;
+}
+.orderform{
+    display: none;
+}
+#orderform{
+    position: fixed;
+    margin-top: 10vw;
+    margin-left: 1vw;
+}
+#orderblur{
+    top:0;
+    left:0;
+    background: rgb(0, 0, 0);
+    position: fixed;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+    height: 100%; 
+    width: 100%;
+}
+.order{
+    border: solid;
+    border-color:rgb(0, 0, 0);
+    border-radius: 50px;
+    width: 6vw;
+    padding: 0.5vw;
+    padding-left: 1.2vw;
+    cursor: pointer;
+}
+.newspaper {
+    cursor: pointer;
+  }

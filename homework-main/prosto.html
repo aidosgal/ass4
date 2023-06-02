@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS Object Example</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            margin: 50px;
+            text-align: center;
+            line-height: 200px;
+            color: white;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">Click me!</div>
+
+    <script>
+        // Create a JavaScript object
+        const boxObject = {
+            boxElement: document.querySelector('.box'),
+            backgroundColor: 'red',
+            handleClick: function() {
+                this.boxElement.style.backgroundColor = 'blue';
+            },
+            handleMouseOver: function() {
+                this.boxElement.style.backgroundColor = 'green';
+            },
+            handleKeyPress: function(event) {
+                if (event.key === 'Enter') {
+                    this.boxElement.style.backgroundColor = 'yellow';
+                }
+            },
+            addEventListeners: function() {
+                this.boxElement.addEventListener('click', this.handleClick.bind(this));
+                this.boxElement.addEventListener('mouseover', this.handleMouseOver.bind(this));
+                window.addEventListener('keypress', this.handleKeyPress.bind(this));
+            }
+        };
+
+        // Call the addEventListeners method to attach the event listeners
+        boxObject.addEventListeners();
+    </script>
+</body>
+</html>
